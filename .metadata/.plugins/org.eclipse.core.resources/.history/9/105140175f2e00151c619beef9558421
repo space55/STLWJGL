@@ -1,0 +1,15 @@
+
+
+
+public class InputThread extends Thread
+{
+	public InputThread()
+	{
+		
+	}
+	
+	public void run()
+	{
+		
+	}
+}

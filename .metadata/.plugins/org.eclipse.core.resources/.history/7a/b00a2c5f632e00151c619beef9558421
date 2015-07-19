@@ -1,0 +1,16 @@
+public class InputThread extends Thread
+{
+	private int keys[] = new int[200];
+	public InputThread()
+	{
+		Logger.write("InputThread Started");
+	}
+	
+	public void run()
+	{
+		while (true)
+		{
+			
+		}
+	}
+}

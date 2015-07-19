@@ -1,0 +1,18 @@
+
+private int keys[] = new int[200];
+
+public class InputThread extends Thread
+{
+	public InputThread()
+	{
+	
+	}
+	
+	public void run()
+	{
+		while (true)
+		{
+			
+		}
+	}
+}
