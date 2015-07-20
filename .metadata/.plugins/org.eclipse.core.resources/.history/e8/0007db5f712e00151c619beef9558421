@@ -1,0 +1,25 @@
+
+public class MasterInputThread extends Thread
+{
+	private boolean keys[] = new boolean[200];
+	
+	public MasterInputThread()
+	{
+	
+	}
+	
+	public void run()
+	{
+	
+	}
+	
+	public void set(int key, boolean pressed)
+	{
+		keys[key] = pressed;
+	}
+	
+	public boolean get(int key)
+	{
+		return keys[key];
+	}
+}

@@ -1,0 +1,13 @@
+
+public class MasterInputThread extends Thread
+{
+	public MasterInputThread()
+	{
+		
+	}
+	
+	public run()
+	{
+		
+	}
+}

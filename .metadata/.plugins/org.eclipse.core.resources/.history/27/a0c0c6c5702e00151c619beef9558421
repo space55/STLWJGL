@@ -1,0 +1,31 @@
+
+public class KeyThread extends Thread
+{
+	public KeyThread()
+	{
+	
+	}
+	
+	public void run()
+	{
+		while (true)
+		{
+			if (KeyboardMain.get(0))
+			{
+				Movement.moveLeft();
+			}
+			if (KeyboardMain.get(22))
+			{
+				Movement.moveUp();
+			}
+			if (KeyboardMain.get(18))
+			{
+				Movement.moveUp();
+			}
+			if (KeyboardMain.get(3))
+			{
+				Movement.moveUp();
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+
+public class KeyThread extends Thread
+{
+	public KeyThread()
+	{
+	
+	}
+	
+	public void run()
+	{
+		while (true)
+		{
+			if (mit.get(0))
+			{
+			
+			}
+		}
+	}
+}

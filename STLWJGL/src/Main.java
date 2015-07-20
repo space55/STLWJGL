@@ -17,7 +17,9 @@ public class Main
 			System.exit(0);
 		}
 		
-		InputThread it = new InputThread();
+		KeyboardMain km = new KeyboardMain();
+		
+		km.init();
 		
 		// init OpenGL here
 		

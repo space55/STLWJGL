@@ -1,0 +1,16 @@
+
+public class KeyThread extends Thread
+{
+	public KeyThread()
+	{
+	
+	}
+	
+	public void run()
+	{
+		while (true)
+		{
+		
+		}
+	}
+}

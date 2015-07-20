@@ -1,0 +1,31 @@
+
+public class KeyboardMain extends Thread
+{
+	static MasterInput mi;
+	static KeyboardInputThread kit;
+	static KeyThread kt;
+	
+	public void init()
+	{
+		mi = new MasterInput();
+		kit = new KeyboardInputThread();
+		kt = new KeyThread();
+		runThreads();
+	}
+	
+	private void runThreads()
+	{
+		kit.run();
+		kt.run();
+	}
+	
+	public static boolean get(int key)
+	{
+		return mit.get(key);
+	}
+	
+	public static void set(int key, boolean pressed)
+	{
+		mit.set(key, pressed);
+	}
+}

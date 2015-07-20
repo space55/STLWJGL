@@ -1,0 +1,20 @@
+
+public class MasterInput
+{
+	private boolean keys[] = new boolean[200];
+	
+	public MasterInputThread()
+	{
+		Logger.write("MasterInputThread Started");
+	}
+	
+	public void set(int key, boolean pressed)
+	{
+		keys[key] = pressed;
+	}
+	
+	public boolean get(int key)
+	{
+		return keys[key];
+	}
+}

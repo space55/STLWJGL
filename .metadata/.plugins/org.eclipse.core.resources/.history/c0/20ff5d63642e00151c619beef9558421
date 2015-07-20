@@ -1,0 +1,25 @@
+import org.lwjgl.input.Keyboard;
+
+public class InputThread extends Thread
+{
+	private boolean keys[] = new boolean[200];
+	
+	public InputThread()
+	{
+		Logger.write("InputThread Started");
+	}
+	
+	public void run()
+	{
+		while (true)
+		{
+			if (Keyboard.getEventKeyState())
+			{
+				if (Keyboard.getEventKey() == Keyboard.KEY_A)
+				{
+					System.out.println("A Key Pressed");
+				}
+			}
+		}
+	}
+}

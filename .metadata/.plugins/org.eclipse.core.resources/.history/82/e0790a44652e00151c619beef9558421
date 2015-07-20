@@ -1,0 +1,55 @@
+import org.lwjgl.input.Keyboard;
+
+public class KeyboardInputThread extends Thread
+{
+	
+	public KeyboardInputThread()
+	{
+		Logger.write("InputThread Started");
+	}
+	
+	public void run()
+	{
+		while (true)
+		{
+			if (Keyboard.getEventKeyState())
+			{
+				if (Keyboard.getEventKey() == Keyboard.KEY_A)
+				{
+					keys[0] = true;
+				}
+				else
+				{
+					keys[0] = false;
+				}
+				
+				if (Keyboard.getEventKey() == Keyboard.KEY_W)
+				{
+					keys[22] = true;
+				}
+				else
+				{
+					keys[22] = false;
+				}
+				
+				if (Keyboard.getEventKey() == Keyboard.KEY_S)
+				{
+					keys[18] = true;
+				}
+				else
+				{
+					keys[18] = false;
+				}
+				
+				if (Keyboard.getEventKey() == Keyboard.KEY_D)
+				{
+					keys[3] = true;
+				}
+				else
+				{
+					keys[3] = false;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+
+public class KeyboardThread extends Thread
+{
+	static MasterInputThread mit = new MasterInputThread();
+	static KeyboardInputThread kit = new KeyboardInputThread();
+	static KeyThread kt = new KeyThread();
+	
+	public static boolean getKey(int key)
+	{
+		return mit.get(key);
+	}
+}

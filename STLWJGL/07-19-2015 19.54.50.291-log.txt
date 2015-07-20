@@ -1,0 +1,6 @@
+Starting logfile at 19:54:50.291[07-19-2015 19:54:50.292] KeyboardMain Initializing
+[07-19-2015 19:54:50.293] MasterInput Started
+[07-19-2015 19:54:50.294] KeyboardInputThread Started
+[07-19-2015 19:54:50.294] KeyThread Started
+[07-19-2015 19:54:50.295] KeyboardMain Running Threads
+[07-19-2015 19:54:50.295] KeyboardInputThread Run
