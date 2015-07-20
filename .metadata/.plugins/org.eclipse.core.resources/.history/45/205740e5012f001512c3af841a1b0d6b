@@ -1,0 +1,5 @@
+Starting logfile at 12:40:26.422[07-20-2015 12:40:26.423] Creating and running KeyboardInput object
+[07-20-2015 12:40:26.426] KeyboardInput run called
+[07-20-2015 12:40:26.427] Setting title
+[07-20-2015 12:40:26.428] Starting !Display.isCloseRequested() while loop
+[07-20-2015 12:40:32.593] Seems that the client is shutting down!

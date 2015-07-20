@@ -1,0 +1,8 @@
+
+public class Draw
+{
+	public static void get()
+	{
+		Rect.get();
+	}
+}

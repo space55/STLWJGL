@@ -1,0 +1,24 @@
+
+public class Movement
+{
+	public static void moveUp()
+	{
+		Logger.write("moveUp called");
+		Draw.rect.set(Draw.get()[0]+10, Draw.get()[1], Draw.get()[2], Draw.get()[3]);
+	}
+	
+	public static void moveDown()
+	{
+		Logger.write("moveDown called");
+	}
+	
+	public static void moveLeft()
+	{
+		Logger.write("moveLeft called");
+	}
+	
+	public static void moveRight()
+	{
+		Logger.write("moveRight called");
+	}
+}

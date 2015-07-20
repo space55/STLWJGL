@@ -1,0 +1,30 @@
+
+public class Movement implements Runnable
+{
+	
+	
+	@Override
+	public void run()
+	{
+		while (true)
+		{
+			if (KeyboardInput.moveUp)
+			{
+				Logger.write("Keyboard thing happened!");
+				moveUp();
+			}
+			if (KeyboardInput.moveDown)
+			{
+				moveDown();
+			}
+			if (KeyboardInput.moveLeft)
+			{
+				moveLeft();
+			}
+			if (KeyboardInput.moveRight)
+			{
+				moveRight();
+			}
+		}
+	}
+}

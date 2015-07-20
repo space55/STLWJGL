@@ -1,0 +1,16 @@
+
+public class KeyboardInput extends Thread
+{
+	public KeyboardInput()
+	{
+	
+	}
+	
+	public void run()
+	{
+		while (true)
+		{
+			
+		}
+	}
+}

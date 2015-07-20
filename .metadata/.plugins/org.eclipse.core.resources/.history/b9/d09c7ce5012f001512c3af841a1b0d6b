@@ -1,0 +1,8 @@
+Starting logfile at 09:20:50.860[07-20-2015 09:20:50.861] Starting KeyboardMain
+[07-20-2015 09:20:50.864] Init called on KeyboardMain object
+[07-20-2015 09:20:50.865] KeyboardMain Initializing
+[07-20-2015 09:20:50.874] MasterInput Started
+[07-20-2015 09:20:50.880] KeyboardInputThread Started
+[07-20-2015 09:20:50.886] KeyThread Started
+[07-20-2015 09:20:50.887] KeyboardMain Running Threads
+[07-20-2015 09:20:50.888] KeyboardInputThread Run

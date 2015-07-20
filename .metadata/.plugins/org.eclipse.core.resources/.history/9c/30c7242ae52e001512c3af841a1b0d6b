@@ -1,0 +1,27 @@
+import org.lwjgl.opengl.*;
+
+public class Rect
+{
+	int x;
+	int y;
+	int width;
+	int height;
+	public Rect(int x, int y, int width, int height)
+	{
+		this.x = x;
+		this.y = y;
+		this.width = width;
+		this.height = height;
+		GL11.
+	}
+	
+	public void set(int x, int y)
+	{
+		set(x, y, width, height);
+	}
+	
+	public void set(int x, int y, int width, int height)
+	{
+		
+	}
+}

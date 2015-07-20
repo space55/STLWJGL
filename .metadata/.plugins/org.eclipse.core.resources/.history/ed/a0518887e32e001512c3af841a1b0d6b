@@ -1,0 +1,54 @@
+import org.lwjgl.input.Keyboard;
+
+public class KeyboardInput implements Runnable
+{
+	public KeyboardInput()
+	{
+	
+	}
+	
+	public void run()
+	{
+		Logger.write("KeyboardInput run called");
+		while (true)
+		{
+			if (Keyboard.getEventKeyState())
+			{
+				// Key A
+				if (Keyboard.getEventKey() == Keyboard.KEY_A)
+				{
+					Logger.write("Calling MoveLeft");
+					Movement.moveLeft();
+				}
+				
+				// Key W
+				if (Keyboard.getEventKey() == Keyboard.KEY_W)
+				{
+					Logger.write("Calling MoveUp");
+					Movement.moveUp();
+				}
+				
+				// Key S
+				if (Keyboard.getEventKey() == Keyboard.KEY_S)
+				{
+					Logger.write("Calling MoveDown");
+					Movement.moveDown();
+				}
+				
+				// Key D
+				if (Keyboard.getEventKey() == Keyboard.KEY_D)
+				{
+					Logger.write("Calling MoveRight");
+					Movement.moveRight();
+				}
+				
+				// Key SHIFT
+				/*
+				 * if (Keyboard.getEventKey() == Keyboard.KEY_LSHIFT ||
+				 * Keyboard.getEventKey() == Keyboard.KEY_LSHIFT) {
+				 * KeyboardMain.set(128, true); }
+				 */
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+Starting logfile at 12:57:07.708[07-20-2015 12:57:07.708] Creating and running KeyboardInput object
+[07-20-2015 12:57:07.716] Setting title
+[07-20-2015 12:57:07.716] KeyboardInput run called
+[07-20-2015 12:57:07.717] Starting !Display.isCloseRequested() while loop
+[07-20-2015 12:57:09.738] moveUp called
+[07-20-2015 12:57:10.327] moveUp called
+[07-20-2015 12:57:10.952] moveUp called
+[07-20-2015 12:57:11.181] moveUp called
+[07-20-2015 12:57:12.364] moveUp called
+[07-20-2015 12:57:12.667] moveUp called
+[07-20-2015 12:57:13.186] moveUp called
+[07-20-2015 12:57:14.370] moveRight called
+[07-20-2015 12:57:14.889] moveRight called
+[07-20-2015 12:57:14.901] moveRight called
+[07-20-2015 12:57:15.81] moveDown called
+[07-20-2015 12:57:15.553] moveDown called
+[07-20-2015 12:57:15.664] moveDown called
+[07-20-2015 12:57:16.25] moveDown called
+[07-20-2015 12:57:16.36] moveDown called
+[07-20-2015 12:57:16.363] moveDown called
+[07-20-2015 12:57:16.416] moveUp called
+[07-20-2015 12:57:16.725] moveUp called
+[07-20-2015 12:57:16.882] moveUp called
+[07-20-2015 12:57:17.20] moveUp called
+[07-20-2015 12:57:17.974] Seems that the client is shutting down!

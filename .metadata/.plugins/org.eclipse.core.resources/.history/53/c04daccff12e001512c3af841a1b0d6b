@@ -1,0 +1,53 @@
+
+public class Movement implements Runnable
+{
+	
+	public static void moveUp()
+	{
+		Logger.write("moveUp called");
+		
+		Draw.rect.set(Draw.rect.get()[0], Draw.rect.get()[1] + FloatMath.getFloatHeight(10), Draw.rect.get()[2], Draw.rect.get()[3]);
+	}
+	
+	public static void moveDown()
+	{
+		Logger.write("moveDown called");
+		Draw.rect.set(Draw.rect.get()[0], Draw.rect.get()[1] - FloatMath.getFloatHeight(10), Draw.rect.get()[2], Draw.rect.get()[3]);
+	}
+	
+	public static void moveLeft()
+	{
+		Draw.rect.set(Draw.rect.get()[0] - FloatMath.getFloatWidth(10), Draw.rect.get()[1], Draw.rect.get()[2], Draw.rect.get()[3]);
+		Logger.write("moveLeft called");
+	}
+	
+	public static void moveRight()
+	{
+		Logger.write("moveRight called");
+		Draw.rect.set(Draw.rect.get()[0] + FloatMath.getFloatWidth(10), Draw.rect.get()[1], Draw.rect.get()[2], Draw.rect.get()[3]);
+	}
+
+	@Override
+	public void run()
+	{
+		while (true)
+		{
+			if (KeyboardInput.moveUp)
+			{
+				moveUp();
+			}
+			if (KeyboardInput.moveDown)
+			{
+				moveDown();
+			}
+			if (KeyboardInput.moveLeft)
+			{
+				moveLeft();
+			}
+			if (KeyboardInput.moveRight)
+			{
+				moveRight();
+			}
+		}
+	}
+}

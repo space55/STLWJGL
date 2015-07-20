@@ -1,0 +1,37 @@
+Starting logfile at 09:32:12.350[07-20-2015 09:32:12.351] Creating and running KeyboardInput object
+[07-20-2015 09:32:12.357] Setting title
+[07-20-2015 09:32:12.357] KeyboardInput run called
+[07-20-2015 09:32:12.359] Starting !Display.isCloseRequested() while loop
+[07-20-2015 09:32:14.579] ITS OVER 9000
+[07-20-2015 09:32:14.697] Calling MoveUp
+[07-20-2015 09:32:14.703] moveUp called
+[07-20-2015 09:32:16.29] ITS OVER 9000
+[07-20-2015 09:32:17.544] Calling MoveUp
+[07-20-2015 09:32:17.545] moveUp called
+[07-20-2015 09:32:17.867] ITS OVER 9000
+[07-20-2015 09:32:21.743] Calling MoveUp
+[07-20-2015 09:32:21.751] moveUp called
+[07-20-2015 09:32:22.327] ITS OVER 9000
+[07-20-2015 09:32:22.432] Calling MoveLeft
+[07-20-2015 09:32:22.433] moveLeft called
+[07-20-2015 09:32:22.828] ITS OVER 9000
+[07-20-2015 09:32:22.843] Calling MoveUp
+[07-20-2015 09:32:22.844] moveUp called
+[07-20-2015 09:32:32.658] ITS OVER 9000
+[07-20-2015 09:32:45.975] Calling MoveUp
+[07-20-2015 09:32:45.975] moveUp called
+[07-20-2015 09:32:55.787] ITS OVER 9000
+[07-20-2015 09:32:55.799] Calling MoveUp
+[07-20-2015 09:32:55.800] moveUp called
+[07-20-2015 09:32:55.802] ITS OVER 9000
+[07-20-2015 09:32:55.804] Calling MoveRight
+[07-20-2015 09:32:55.804] moveRight called
+[07-20-2015 09:32:55.806] ITS OVER 9000
+[07-20-2015 09:32:55.814] Calling MoveLeft
+[07-20-2015 09:32:55.815] moveLeft called
+[07-20-2015 09:32:55.822] ITS OVER 9000
+[07-20-2015 09:32:55.824] Calling MoveUp
+[07-20-2015 09:32:55.824] moveUp called
+[07-20-2015 09:32:55.827] ITS OVER 9000
+[07-20-2015 09:32:55.828] Calling MoveDown
+[07-20-2015 09:32:55.829] moveDown called

@@ -1,0 +1,9 @@
+import org.lwjgl.opengl.*;
+
+public class Rect
+{
+	public Rect(int x, int y, int width, int height)
+	{
+		
+	}
+}

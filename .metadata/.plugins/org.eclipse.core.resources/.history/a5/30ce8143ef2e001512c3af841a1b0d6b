@@ -1,0 +1,9 @@
+import org.lwjgl.opengl.Display;
+
+public class FloatMath
+{
+	public static float getFloatHeight(int number)
+	{
+		return number/Display.getHeight();
+	}
+}

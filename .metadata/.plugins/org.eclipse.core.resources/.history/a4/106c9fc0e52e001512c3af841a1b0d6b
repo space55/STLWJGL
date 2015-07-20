@@ -1,0 +1,42 @@
+import org.lwjgl.opengl.GL11;
+
+public class Rect
+{
+	int x;
+	int y;
+	int width;
+	int height;
+	
+	public Rect(int x, int y, int width, int height)
+	{
+		this.x = x;
+		this.y = y;
+		this.width = width;
+		this.height = height;
+		get();
+	}
+	
+	public void set(int x, int y)
+	{
+		set(x, y, width, height);
+	}
+	
+	public void set(int x, int y, int width, int height)
+	{
+		this.x = x;
+		this.y = y;
+		this.width = width;
+		this.height = height;
+	}
+	
+	public static void get()
+	{
+		GL11.glColor3f(1.0f, 0.5f, 1.0f);
+		
+		GL11.glBegin(GL11.GL_QUADS);
+		GL11.glVertex2f(100, 100);
+		GL11.glVertex2f(100 + 200, 100);
+		GL11.glVertex2f(100 + 200, 100 + 200);
+		GL11.glVertex2f(100, 100 + 200);
+	}
+}

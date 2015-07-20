@@ -1,0 +1,10 @@
+
+public class Draw
+{
+	Rect rect = new Rect(0f, 0f, .2f, .2f);
+	
+	public void get()
+	{
+		rect.get();
+	}
+}

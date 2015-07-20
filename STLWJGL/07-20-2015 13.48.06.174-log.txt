@@ -1,0 +1,4 @@
+Starting logfile at 13:48:06.176[07-20-2015 13:48:06.177] Creating and running KeyboardInput object
+[07-20-2015 13:48:06.179] Setting title
+[07-20-2015 13:48:06.179] KeyboardInput run called
+[07-20-2015 13:48:06.180] Starting !Display.isCloseRequested() while loop

@@ -1,0 +1,10 @@
+
+public class Draw
+{
+	Rect rect = new Rect(0f, 0f, FloatMath.getFloatWidth(500), FloatMath.getFloatHeight(500));
+	
+	public void get()
+	{
+		rect.get();
+	}
+}

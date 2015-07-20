@@ -1,0 +1,10 @@
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		Threads th = new Threads();
+		Thread t = new Thread(th);
+		t.start();
+	}
+}

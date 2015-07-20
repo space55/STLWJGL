@@ -1,0 +1,10 @@
+
+public class Threads implements Runnable
+{
+	public void run()
+	{
+		Thread t = new Thread(this);
+		t.start();
+		run();
+	}
+}

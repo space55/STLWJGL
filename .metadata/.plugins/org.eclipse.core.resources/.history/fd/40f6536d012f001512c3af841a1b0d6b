@@ -1,0 +1,6 @@
+
+public class Main
+{
+	Thread t = new Thread(Threads);
+	t.start();
+}

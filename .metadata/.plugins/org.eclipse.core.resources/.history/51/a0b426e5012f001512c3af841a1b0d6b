@@ -1,0 +1,10 @@
+Starting logfile at 09:45:20.836[07-20-2015 09:45:20.837] Creating and running KeyboardInput object
+[07-20-2015 09:45:20.839] Setting title
+[07-20-2015 09:45:20.839] KeyboardInput run called
+[07-20-2015 09:45:20.840] Starting !Display.isCloseRequested() while loop
+[07-20-2015 09:45:23.446] moveUp called
+[07-20-2015 09:45:24.80] moveUp called
+[07-20-2015 09:45:24.947] moveUp called
+[07-20-2015 09:45:25.482] moveLeft called
+[07-20-2015 09:45:26.66] moveDown called
+[07-20-2015 09:45:26.506] moveRight called
