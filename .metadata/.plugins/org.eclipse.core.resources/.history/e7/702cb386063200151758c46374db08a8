@@ -1,0 +1,15 @@
+import org.lwjgl.opengl.Display;
+
+public class Background implements Runnable
+{
+	public void run()
+	{
+		while (true)
+		{
+			if (Display.isCloseRequested())
+			{
+				Main.quit();
+			}
+		}
+	}
+}

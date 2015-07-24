@@ -1,5 +1,7 @@
 import org.lwjgl.input.Keyboard;
 
+import Logger.Logger;
+
 public class KeyboardInput implements Runnable
 {
 	public static boolean moveUp = false;
@@ -7,12 +9,12 @@ public class KeyboardInput implements Runnable
 	public static boolean moveLeft = false;
 	public static boolean moveRight = false;
 	
-	private static int sleep = 1;
+	private static int sleep = 5;
 	private static int moveSpeed = 1;
 	
 	public void run()
 	{
-		Logger.write("KeyboardInput run called");
+		Logger.println("KeyboardInput run called");
 		while (true)
 		{
 			try
@@ -79,7 +81,7 @@ public class KeyboardInput implements Runnable
 			}
 			catch (Exception e)
 			{
-				Logger.write("Seems that the client is shutting down!");
+				Logger.println("Seems that the client is shutting down!");
 			}
 			if (moveUp)
 			{
@@ -102,6 +104,7 @@ public class KeyboardInput implements Runnable
 	
 	public static void moveUp()
 	{
+		
 		try
 		{
 			Thread.sleep(sleep);
@@ -111,7 +114,13 @@ public class KeyboardInput implements Runnable
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Draw.rect.set(Draw.rect.get()[0], Draw.rect.get()[1] + FloatMath.getFloatHeight(moveSpeed), Draw.rect.get()[2], Draw.rect.get()[3]);
+		float speed = (float) FloatMath.getFloatHeight(moveSpeed);
+		// x, y, xVel, yVel, size
+		boolean run = Collision.checkWall(Draw.man.get()[0], Draw.man.get()[1], 0f, 0 - speed, Draw.man.get()[3], 1);
+		if (run)
+		{
+			Draw.man.set(Draw.man.get()[0], Draw.man.get()[1] + FloatMath.getFloatHeight(moveSpeed), Draw.man.get()[2], Draw.man.get()[3]);
+		}
 	}
 	
 	public static void moveDown()
@@ -125,7 +134,12 @@ public class KeyboardInput implements Runnable
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Draw.rect.set(Draw.rect.get()[0], Draw.rect.get()[1] - FloatMath.getFloatHeight(moveSpeed), Draw.rect.get()[2], Draw.rect.get()[3]);
+		float speed = (float) FloatMath.getFloatHeight(moveSpeed);
+		boolean run = Collision.checkWall(Draw.man.get()[0], Draw.man.get()[1], 0f, speed, Draw.man.get()[3], 0);
+		if (run)
+		{
+			Draw.man.set(Draw.man.get()[0], Draw.man.get()[1] - FloatMath.getFloatHeight(moveSpeed), Draw.man.get()[2], Draw.man.get()[3]);
+		}
 	}
 	
 	public static void moveLeft()
@@ -139,7 +153,12 @@ public class KeyboardInput implements Runnable
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Draw.rect.set(Draw.rect.get()[0] - FloatMath.getFloatWidth(moveSpeed), Draw.rect.get()[1], Draw.rect.get()[2], Draw.rect.get()[3]);
+		float speed = (float) FloatMath.getFloatHeight(moveSpeed);
+		boolean run = Collision.checkWall(Draw.man.get()[0], Draw.man.get()[1], 0 - speed, 0f, Draw.man.get()[3], 2);
+		if (run)
+		{
+			Draw.man.set(Draw.man.get()[0] - FloatMath.getFloatWidth(moveSpeed), Draw.man.get()[1], Draw.man.get()[2], Draw.man.get()[3]);
+		}
 	}
 	
 	public static void moveRight()
@@ -153,6 +172,35 @@ public class KeyboardInput implements Runnable
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Draw.rect.set(Draw.rect.get()[0] + FloatMath.getFloatWidth(moveSpeed), Draw.rect.get()[1], Draw.rect.get()[2], Draw.rect.get()[3]);
+		// c * 40 / 800 = x --> c * 40 = 800x --> c = 800x/40
+		float speed = (float) FloatMath.getFloatWidth(moveSpeed);
+		
+		/*
+		 * int wallX = (int) ((int) Display.getWidth() * Draw.man.get()[0] /
+		 * 40); int wallY = (int) ((int) Display.getHeight() * Draw.man.get()[1]
+		 * / 40);
+		 * 
+		 * wallX += BuildWall.lines / 2; wallY += BuildWall.width / 2;
+		 */
+		
+		int wallX = (int) (Draw.man.get()[0] % 0.05f * 100);
+		int wallY = (int) (Draw.man.get()[1] % 0.07f * 100);
+		
+		Logger.println(wallX);
+		Logger.println(wallY);
+		
+		// Logger.println(Draw.walls[wallY][wallX].isWall());
+		
+		try
+		{
+			if (Draw.walls[wallY][wallX].isWall())
+			{
+				Draw.man.set(Draw.man.get()[0] + speed, Draw.man.get()[1], Draw.man.get()[2], Draw.man.get()[3]);
+			}
+		}
+		catch (Exception e)
+		{
+			Logger.println("False!");
+		}
 	}
 }

@@ -1,0 +1,12 @@
+
+public class Wall
+{
+	float x;
+	float y;
+	
+	public wall(float x, float y)
+	{
+		this.x = x;
+		this.y = y;
+	}
+}

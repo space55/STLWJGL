@@ -1,0 +1,30 @@
+
+public class Walls
+{
+	Wall wall;
+	float x;
+	float y;
+	float endX;
+	float endY;
+	Colour color;
+	boolean isWall;
+	int spotX;
+	int spotY;
+	public Walls(float x, float y, float endX, float endY, Colour color, boolean isWall, int spotX, int spotY)
+	{
+		this.x = x;
+		this.y = y;
+		this.endX = endX;
+		this.endY = endY;
+		this.color = color;
+		this.isWall = isWall;
+		createWall();
+		this.spotX = spotX;
+		this.spotY = spotY;
+	}
+	
+	private void createWall()
+	{
+		wall = new Wall(x, y, endX, endY, color, isWall);
+	}
+}

@@ -1,0 +1,204 @@
+import org.lwjgl.input.Keyboard;
+import org.lwjgl.opengl.Display;
+
+import Logger.Logger;
+
+public class KeyboardInput implements Runnable
+{
+	public static boolean moveUp = false;
+	public static boolean moveDown = false;
+	public static boolean moveLeft = false;
+	public static boolean moveRight = false;
+	
+	private static int sleep = 5;
+	private static int moveSpeed = 1;
+	
+	public void run()
+	{
+		Logger.println("KeyboardInput run called");
+		while (true)
+		{
+			try
+			{
+				while (Keyboard.next())
+				{
+					if (Keyboard.getEventKeyState())
+					{
+						// Key A
+						if (Keyboard.getEventKey() == Keyboard.KEY_A)
+						{
+							moveLeft = true;
+						}
+						else
+						{
+							moveLeft = false;
+						}
+						
+						// Key W
+						if (Keyboard.getEventKey() == Keyboard.KEY_W)
+						{
+							moveUp = true;
+						}
+						else
+						{
+							moveUp = false;
+						}
+						
+						// Key S
+						if (Keyboard.getEventKey() == Keyboard.KEY_S)
+						{
+							moveDown = true;
+						}
+						else
+						{
+							moveDown = false;
+						}
+						
+						// Key D
+						if (Keyboard.getEventKey() == Keyboard.KEY_D)
+						{
+							moveRight = true;
+						}
+						else
+						{
+							moveRight = false;
+						}
+						
+						// Key SHIFT
+						/*
+						 * if (Keyboard.getEventKey() == Keyboard.KEY_LSHIFT ||
+						 * Keyboard.getEventKey() == Keyboard.KEY_LSHIFT) {
+						 * KeyboardMain.set(128, true); }
+						 */
+					}
+					else
+					{
+						moveUp = false;
+						moveDown = false;
+						moveLeft = false;
+						moveRight = false;
+					}
+				}
+			}
+			catch (Exception e)
+			{
+				Logger.println("Seems that the client is shutting down!");
+			}
+			if (moveUp)
+			{
+				moveUp();
+			}
+			if (moveDown)
+			{
+				moveDown();
+			}
+			if (moveLeft)
+			{
+				moveLeft();
+			}
+			if (moveRight)
+			{
+				moveRight();
+			}
+		}
+	}
+	
+	public static void moveUp()
+	{
+		
+		try
+		{
+			Thread.sleep(sleep);
+		}
+		catch (InterruptedException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		float speed = (float) FloatMath.getFloatHeight(moveSpeed);
+		// x, y, xVel, yVel, size
+		boolean run = Collision.checkWall(Draw.man.get()[0], Draw.man.get()[1], 0f, 0 - speed, Draw.man.get()[3], 1);
+		if (run)
+		{
+			Draw.man.set(Draw.man.get()[0], Draw.man.get()[1] + FloatMath.getFloatHeight(moveSpeed), Draw.man.get()[2], Draw.man.get()[3]);
+		}
+	}
+	
+	public static void moveDown()
+	{
+		try
+		{
+			Thread.sleep(sleep);
+		}
+		catch (InterruptedException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		float speed = (float) FloatMath.getFloatHeight(moveSpeed);
+		boolean run = Collision.checkWall(Draw.man.get()[0], Draw.man.get()[1], 0f, speed, Draw.man.get()[3], 0);
+		if (run)
+		{
+			Draw.man.set(Draw.man.get()[0], Draw.man.get()[1] - FloatMath.getFloatHeight(moveSpeed), Draw.man.get()[2], Draw.man.get()[3]);
+		}
+	}
+	
+	public static void moveLeft()
+	{
+		try
+		{
+			Thread.sleep(sleep);
+		}
+		catch (InterruptedException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		float speed = (float) FloatMath.getFloatHeight(moveSpeed);
+		boolean run = Collision.checkWall(Draw.man.get()[0], Draw.man.get()[1], 0 - speed, 0f, Draw.man.get()[3], 2);
+		if (run)
+		{
+			Draw.man.set(Draw.man.get()[0] - FloatMath.getFloatWidth(moveSpeed), Draw.man.get()[1], Draw.man.get()[2], Draw.man.get()[3]);
+		}
+	}
+	
+	public static void moveRight()
+	{
+		try
+		{
+			Thread.sleep(sleep);
+		}
+		catch (InterruptedException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// c * 40 / 800 = x --> c * 40 = 800x --> c = 800x/40
+		float speed = (float) FloatMath.getFloatWidth(moveSpeed);
+		
+		int wallX = (int) ((int) Display.getWidth() * Draw.man.get()[0] / 40);
+		int wallY = (int) ((int) Display.getHeight() * Draw.man.get()[1] / 40);
+		
+		wallX += BuildWall.lines / 2;
+		wallY += BuildWall.width / 2;
+		
+		wallX = (int) (Draw.man.get()[0] % 0.05f);
+		
+		// Logger.println(wallX);
+		// Logger.println(wallY);
+		
+		Logger.println(Draw.walls[wallY][wallX].isWall());
+		
+		try
+		{
+			if (Draw.walls[wallY][wallX].x - 0.05f == Draw.man.get()[0])
+			{
+				Draw.man.set(Draw.man.get()[0] + speed, Draw.man.get()[1], Draw.man.get()[2], Draw.man.get()[3]);
+			}
+		}
+		catch (Exception e)
+		{
+			Logger.println("False!");
+		}
+	}
+}

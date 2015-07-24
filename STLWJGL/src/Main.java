@@ -3,36 +3,56 @@ import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 import org.lwjgl.opengl.GL11;
 
+import Logger.Logger;
+
 public class Main
 {
-	public void start()
+	public static void start()
+	{
+		createWindow();
+		init();
+		Draw.firstDraw();
+		run();
+	}
+	
+	public static void createWindow()
 	{
 		try
 		{
-			// Display.sync(30);
+			Logger.println("Window created");
 			Display.setDisplayMode(new DisplayMode(800, 600));
 			Display.create();
-			GL11.glMatrixMode(GL11.GL_PROJECTION);
-			GL11.glOrtho(0.0, Display.getDisplayMode().getWidth(), 0.0, Display.getDisplayMode().getHeight(), -1.0, 1.0);
+			// GL11.glViewport(-400, 400, Display.getWidth(),
+			// Display.getHeight());
+			GL11.glMatrixMode(GL11.GL_PROJECTION_MATRIX);
+			GL11.glOrtho(0, 1, -1, 0, -1, 1);
 			GL11.glLoadIdentity();
-			GL11.glMatrixMode(GL11.GL_MODELVIEW);
+			
 		}
 		catch (LWJGLException e)
 		{
 			e.printStackTrace();
 			System.exit(0);
 		}
-		Logger.write("Creating and running KeyboardInput object");
+	}
+	
+	public static void init()
+	{
+		Logger.println("Initializing");
 		
 		KeyboardInput ki = new KeyboardInput();
 		(new Thread(ki)).start();
+		Background b = new Background();
+		(new Thread(b)).start();
+		BuildWall.build();
 		
 		// init OpenGL here
-		Logger.write("Setting title");
-		Display.setTitle("How about dem packers?");
-		
-		Logger.write("Starting !Display.isCloseRequested() while loop");
-		
+		Logger.println("Setting title");
+		Display.setTitle("Spaceman");
+	}
+	
+	public static void run()
+	{
 		while (!Display.isCloseRequested())
 		{
 			try
@@ -51,16 +71,18 @@ public class Main
 			GL11.glDisable(GL11.GL_BLEND);
 			// render OpenGL here
 			Draw.draw();
-			
 		}
-		
-		Display.destroy();
+	}
+	
+	public static void quit()
+	{
+		Logger.println("Program quitting");
 		System.exit(0);
 	}
 	
 	public static void main(String[] argv)
 	{
-		Main displayExample = new Main();
-		displayExample.start();
+		Logger.println("Program running");
+		start();
 	}
 }

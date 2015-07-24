@@ -1,0 +1,26 @@
+import org.lwjgl.opengl.GL11;
+
+import Logger.Logger;
+
+public class Colour
+{
+	public float color[] = new float[3];
+	
+	public Colour(float r, float g, float b)
+	{
+		Logger.println("Creating a colour");
+		color[0] = r;
+		color[1] = g;
+		color[2] = b;
+	}
+	
+	public float[] get()
+	{
+		return color;
+	}
+	
+	public void setColor(float[] color)
+	{
+		GL11.glColor3f(color[0], color[1], color[2]);
+	}
+}

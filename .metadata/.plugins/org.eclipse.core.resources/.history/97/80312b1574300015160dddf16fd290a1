@@ -1,0 +1,25 @@
+import org.lwjgl.opengl.Display;
+
+public class Collision
+{
+	public boolean checkWall(int xVel, int yVel, int x, int y, int size)
+	{
+		if (xVel - x <= size)
+		{
+			return false;
+		}
+		if (xVel + x >= Display.getWidth() - size)
+		{
+			return false;
+		}
+		if (yVel - y <= size)
+		{
+			return false;
+		}
+		if (yVel + y >= Display.getHeight() - size)
+		{
+			return false;
+		}
+		return true;
+	}
+}

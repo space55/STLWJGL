@@ -1,0 +1,104 @@
+import org.lwjgl.opengl.Display;
+
+import Logger.Logger;
+
+public class Draw
+{
+	static Rect inky = new Rect(0f, 0f, FloatMath.getFloatWidth(10), FloatMath.getFloatHeight(10), .5f, .5f, 1f);
+	static Rect blinky = new Rect(0f, 0f, FloatMath.getFloatWidth(10), FloatMath.getFloatHeight(10), 1f, 0f, 0f);
+	static Rect pinky = new Rect(0f, 0f, FloatMath.getFloatWidth(10), FloatMath.getFloatHeight(10), 0.7f, 0.7f, 0.7f);
+	static Rect clyde = new Rect(0f, 0f, FloatMath.getFloatWidth(10), FloatMath.getFloatHeight(10), 1f, 0.66f, 0.2f);
+	static Rect man = new Rect(0f, 0.1f, FloatMath.getFloatWidth(10), FloatMath.getFloatHeight(10), 1f, 1f, 0f);
+	
+	static Object walls[][] = new Object[100][100];
+	static final int WIDTH = 100;
+	static final int HEIGHT = 100;
+	
+	public static void firstDraw()
+	{
+		Logger.println("Drawing for first time");
+		int waitTime = 1;
+		for (int counter = 0; counter < BuildWall.lines; counter++)
+		{
+			for (int counter2 = 0; counter2 < BuildWall.width; counter2++)
+			{
+				float x = FloatMath.getFloatWidth(counter2 * 40);
+				float y = FloatMath.getFloatHeight(counter * 40);
+				float endX = x + 0.05f;
+				float endY = y + 0.07f;
+				endY *= -1;
+				y *= -1;
+				
+				if (Wall.wall[counter][counter2])
+				{
+					walls[counter][counter2] = new Wall(T.X(x), T.Y(y), T.X(endX), T.Y(endY), new Colour(0, 0, 255));
+					
+				}
+				else
+				{
+					walls[counter][counter2] = new Floor(T.X(x), T.Y(y), T.X(endX), T.Y(endY), new Colour(255, 0, 0));
+				}
+				try
+				{
+					drawWalls();
+				}
+				catch (Exception e)
+				{
+				
+				}
+				Display.update();
+				wait(waitTime);
+			}
+		}
+		wait(waitTime);
+		inky.draw();
+		wait(waitTime);
+		blinky.draw();
+		wait(waitTime);
+		pinky.draw();
+		wait(waitTime);
+		clyde.draw();
+		wait(waitTime);
+		man.draw();
+	}
+	
+	private static void wait(int time)
+	{
+		try
+		{
+			Thread.sleep(time);
+		}
+		catch (InterruptedException e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	public static void drawWalls()
+	{
+		for (int counter = 0; counter < BuildWall.lines; counter++)
+		{
+			for (int counter2 = 0; counter2 < BuildWall.width; counter2++)
+			{
+				try
+				{
+					((Draw) walls[counter][counter2]).draw();
+				}
+				catch (Exception e)
+				{
+				
+				}
+			}
+		}
+	}
+	
+	public static void draw()
+	{
+		drawWalls();
+		inky.draw();
+		blinky.draw();
+		pinky.draw();
+		clyde.draw();
+		man.draw();
+	}
+}

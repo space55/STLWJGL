@@ -1,0 +1,420 @@
+Starting logfile at 11:03:58.574[07-22-2015 11:03:58.575] Creating and running KeyboardInput object
+[07-22-2015 11:03:58.580] Setting title
+[07-22-2015 11:03:58.580] KeyboardInput run called
+[07-22-2015 11:03:58.581] Starting !Display.isCloseRequested() while loop
+[07-22-2015 11:04:01.624] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.626] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.628] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.630] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.632] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.634] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.636] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.637] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.638] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.639] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.640] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.641] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.642] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.643] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.663] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.665] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.666] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.667] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.668] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.670] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.671] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.672] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.673] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.705] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.707] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.708] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.709] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.711] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.713] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.714] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.716] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.717] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.718] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.719] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.720] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.721] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.722] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.723] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.724] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.725] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.727] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.728] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.729] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.730] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.732] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.737] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.739] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.740] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.741] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.742] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.743] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.744] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.745] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.746] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.747] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.748] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.749] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.750] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.751] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.752] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.753] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.754] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.755] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.756] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.757] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.758] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.759] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.760] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.761] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.762] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.763] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.764] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.765] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.766] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.779] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.780] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.781] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.782] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.783] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.784] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.786] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.788] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.789] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.790] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.792] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.794] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.795] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.796] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.797] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.798] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.811] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.812] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.814] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.816] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.818] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:01.820] Hit something! (y + yVel) 0.9866658 -0.0016666667 1.0 0.016666668
+[07-22-2015 11:04:04.242] Hit something! (y - yVel)
+[07-22-2015 11:04:04.243] Hit something! (y - yVel)
+[07-22-2015 11:04:04.244] Hit something! (y - yVel)
+[07-22-2015 11:04:04.245] Hit something! (y - yVel)
+[07-22-2015 11:04:04.246] Hit something! (y - yVel)
+[07-22-2015 11:04:04.247] Hit something! (y - yVel)
+[07-22-2015 11:04:04.248] Hit something! (y - yVel)
+[07-22-2015 11:04:04.249] Hit something! (y - yVel)
+[07-22-2015 11:04:04.283] Hit something! (y - yVel)
+[07-22-2015 11:04:04.285] Hit something! (y - yVel)
+[07-22-2015 11:04:04.286] Hit something! (y - yVel)
+[07-22-2015 11:04:04.287] Hit something! (y - yVel)
+[07-22-2015 11:04:04.288] Hit something! (y - yVel)
+[07-22-2015 11:04:04.289] Hit something! (y - yVel)
+[07-22-2015 11:04:04.290] Hit something! (y - yVel)
+[07-22-2015 11:04:04.291] Hit something! (y - yVel)
+[07-22-2015 11:04:04.292] Hit something! (y - yVel)
+[07-22-2015 11:04:04.293] Hit something! (y - yVel)
+[07-22-2015 11:04:04.294] Hit something! (y - yVel)
+[07-22-2015 11:04:04.295] Hit something! (y - yVel)
+[07-22-2015 11:04:04.296] Hit something! (y - yVel)
+[07-22-2015 11:04:04.297] Hit something! (y - yVel)
+[07-22-2015 11:04:04.298] Hit something! (y - yVel)
+[07-22-2015 11:04:04.299] Hit something! (y - yVel)
+[07-22-2015 11:04:04.300] Hit something! (y - yVel)
+[07-22-2015 11:04:04.301] Hit something! (y - yVel)
+[07-22-2015 11:04:04.302] Hit something! (y - yVel)
+[07-22-2015 11:04:04.303] Hit something! (y - yVel)
+[07-22-2015 11:04:04.305] Hit something! (y - yVel)
+[07-22-2015 11:04:04.306] Hit something! (y - yVel)
+[07-22-2015 11:04:04.307] Hit something! (y - yVel)
+[07-22-2015 11:04:04.308] Hit something! (y - yVel)
+[07-22-2015 11:04:04.309] Hit something! (y - yVel)
+[07-22-2015 11:04:04.311] Hit something! (y - yVel)
+[07-22-2015 11:04:04.312] Hit something! (y - yVel)
+[07-22-2015 11:04:04.324] Hit something! (y - yVel)
+[07-22-2015 11:04:04.325] Hit something! (y - yVel)
+[07-22-2015 11:04:04.326] Hit something! (y - yVel)
+[07-22-2015 11:04:04.327] Hit something! (y - yVel)
+[07-22-2015 11:04:04.328] Hit something! (y - yVel)
+[07-22-2015 11:04:04.329] Hit something! (y - yVel)
+[07-22-2015 11:04:04.330] Hit something! (y - yVel)
+[07-22-2015 11:04:04.331] Hit something! (y - yVel)
+[07-22-2015 11:04:04.332] Hit something! (y - yVel)
+[07-22-2015 11:04:04.333] Hit something! (y - yVel)
+[07-22-2015 11:04:04.334] Hit something! (y - yVel)
+[07-22-2015 11:04:04.335] Hit something! (y - yVel)
+[07-22-2015 11:04:04.336] Hit something! (y - yVel)
+[07-22-2015 11:04:04.337] Hit something! (y - yVel)
+[07-22-2015 11:04:04.338] Hit something! (y - yVel)
+[07-22-2015 11:04:04.339] Hit something! (y - yVel)
+[07-22-2015 11:04:04.340] Hit something! (y - yVel)
+[07-22-2015 11:04:04.341] Hit something! (y - yVel)
+[07-22-2015 11:04:04.381] Hit something! (y - yVel)
+[07-22-2015 11:04:04.383] Hit something! (y - yVel)
+[07-22-2015 11:04:04.384] Hit something! (y - yVel)
+[07-22-2015 11:04:04.385] Hit something! (y - yVel)
+[07-22-2015 11:04:04.386] Hit something! (y - yVel)
+[07-22-2015 11:04:04.387] Hit something! (y - yVel)
+[07-22-2015 11:04:04.388] Hit something! (y - yVel)
+[07-22-2015 11:04:04.389] Hit something! (y - yVel)
+[07-22-2015 11:04:04.390] Hit something! (y - yVel)
+[07-22-2015 11:04:04.391] Hit something! (y - yVel)
+[07-22-2015 11:04:04.392] Hit something! (y - yVel)
+[07-22-2015 11:04:04.393] Hit something! (y - yVel)
+[07-22-2015 11:04:04.394] Hit something! (y - yVel)
+[07-22-2015 11:04:04.395] Hit something! (y - yVel)
+[07-22-2015 11:04:04.396] Hit something! (y - yVel)
+[07-22-2015 11:04:04.397] Hit something! (y - yVel)
+[07-22-2015 11:04:04.399] Hit something! (y - yVel)
+[07-22-2015 11:04:04.400] Hit something! (y - yVel)
+[07-22-2015 11:04:04.402] Hit something! (y - yVel)
+[07-22-2015 11:04:04.403] Hit something! (y - yVel)
+[07-22-2015 11:04:04.404] Hit something! (y - yVel)
+[07-22-2015 11:04:04.405] Hit something! (y - yVel)
+[07-22-2015 11:04:04.406] Hit something! (y - yVel)
+[07-22-2015 11:04:04.407] Hit something! (y - yVel)
+[07-22-2015 11:04:04.408] Hit something! (y - yVel)
+[07-22-2015 11:04:04.409] Hit something! (y - yVel)
+[07-22-2015 11:04:04.410] Hit something! (y - yVel)
+[07-22-2015 11:04:04.411] Hit something! (y - yVel)
+[07-22-2015 11:04:04.418] Hit something! (y - yVel)
+[07-22-2015 11:04:04.419] Hit something! (y - yVel)
+[07-22-2015 11:04:04.421] Hit something! (y - yVel)
+[07-22-2015 11:04:04.423] Hit something! (y - yVel)
+[07-22-2015 11:04:04.424] Hit something! (y - yVel)
+[07-22-2015 11:04:04.425] Hit something! (y - yVel)
+[07-22-2015 11:04:04.426] Hit something! (y - yVel)
+[07-22-2015 11:04:04.427] Hit something! (y - yVel)
+[07-22-2015 11:04:04.495] Hit something! (y - yVel)
+[07-22-2015 11:04:04.496] Hit something! (y - yVel)
+[07-22-2015 11:04:04.497] Hit something! (y - yVel)
+[07-22-2015 11:04:04.498] Hit something! (y - yVel)
+[07-22-2015 11:04:04.499] Hit something! (y - yVel)
+[07-22-2015 11:04:04.500] Hit something! (y - yVel)
+[07-22-2015 11:04:04.501] Hit something! (y - yVel)
+[07-22-2015 11:04:04.502] Hit something! (y - yVel)
+[07-22-2015 11:04:04.503] Hit something! (y - yVel)
+[07-22-2015 11:04:04.504] Hit something! (y - yVel)
+[07-22-2015 11:04:04.505] Hit something! (y - yVel)
+[07-22-2015 11:04:04.507] Hit something! (y - yVel)
+[07-22-2015 11:04:04.509] Hit something! (y - yVel)
+[07-22-2015 11:04:04.510] Hit something! (y - yVel)
+[07-22-2015 11:04:04.511] Hit something! (y - yVel)
+[07-22-2015 11:04:04.512] Hit something! (y - yVel)
+[07-22-2015 11:04:04.513] Hit something! (y - yVel)
+[07-22-2015 11:04:04.514] Hit something! (y - yVel)
+[07-22-2015 11:04:04.515] Hit something! (y - yVel)
+[07-22-2015 11:04:04.516] Hit something! (y - yVel)
+[07-22-2015 11:04:04.518] Hit something! (y - yVel)
+[07-22-2015 11:04:04.519] Hit something! (y - yVel)
+[07-22-2015 11:04:04.520] Hit something! (y - yVel)
+[07-22-2015 11:04:04.521] Hit something! (y - yVel)
+[07-22-2015 11:04:04.522] Hit something! (y - yVel)
+[07-22-2015 11:04:04.523] Hit something! (y - yVel)
+[07-22-2015 11:04:04.524] Hit something! (y - yVel)
+[07-22-2015 11:04:04.525] Hit something! (y - yVel)
+[07-22-2015 11:04:04.526] Hit something! (y - yVel)
+[07-22-2015 11:04:04.527] Hit something! (y - yVel)
+[07-22-2015 11:04:04.528] Hit something! (y - yVel)
+[07-22-2015 11:04:04.529] Hit something! (y - yVel)
+[07-22-2015 11:04:04.530] Hit something! (y - yVel)
+[07-22-2015 11:04:04.531] Hit something! (y - yVel)
+[07-22-2015 11:04:04.532] Hit something! (y - yVel)
+[07-22-2015 11:04:04.533] Hit something! (y - yVel)
+[07-22-2015 11:04:04.534] Hit something! (y - yVel)
+[07-22-2015 11:04:04.566] Hit something! (y - yVel)
+[07-22-2015 11:04:04.568] Hit something! (y - yVel)
+[07-22-2015 11:04:04.569] Hit something! (y - yVel)
+[07-22-2015 11:04:04.570] Hit something! (y - yVel)
+[07-22-2015 11:04:04.571] Hit something! (y - yVel)
+[07-22-2015 11:04:04.572] Hit something! (y - yVel)
+[07-22-2015 11:04:04.573] Hit something! (y - yVel)
+[07-22-2015 11:04:04.574] Hit something! (y - yVel)
+[07-22-2015 11:04:04.575] Hit something! (y - yVel)
+[07-22-2015 11:04:04.576] Hit something! (y - yVel)
+[07-22-2015 11:04:04.577] Hit something! (y - yVel)
+[07-22-2015 11:04:04.578] Hit something! (y - yVel)
+[07-22-2015 11:04:04.579] Hit something! (y - yVel)
+[07-22-2015 11:04:04.580] Hit something! (y - yVel)
+[07-22-2015 11:04:04.581] Hit something! (y - yVel)
+[07-22-2015 11:04:04.582] Hit something! (y - yVel)
+[07-22-2015 11:04:04.583] Hit something! (y - yVel)
+[07-22-2015 11:04:04.584] Hit something! (y - yVel)
+[07-22-2015 11:04:04.585] Hit something! (y - yVel)
+[07-22-2015 11:04:04.586] Hit something! (y - yVel)
+[07-22-2015 11:04:04.587] Hit something! (y - yVel)
+[07-22-2015 11:04:04.588] Hit something! (y - yVel)
+[07-22-2015 11:04:04.589] Hit something! (y - yVel)
+[07-22-2015 11:04:04.590] Hit something! (y - yVel)
+[07-22-2015 11:04:04.591] Hit something! (y - yVel)
+[07-22-2015 11:04:04.592] Hit something! (y - yVel)
+[07-22-2015 11:04:04.593] Hit something! (y - yVel)
+[07-22-2015 11:04:04.594] Hit something! (y - yVel)
+[07-22-2015 11:04:04.595] Hit something! (y - yVel)
+[07-22-2015 11:04:07.116] Hit something! (x + xVel)
+[07-22-2015 11:04:07.118] Hit something! (x + xVel)
+[07-22-2015 11:04:07.119] Hit something! (x + xVel)
+[07-22-2015 11:04:07.120] Hit something! (x + xVel)
+[07-22-2015 11:04:07.121] Hit something! (x + xVel)
+[07-22-2015 11:04:07.122] Hit something! (x + xVel)
+[07-22-2015 11:04:07.123] Hit something! (x + xVel)
+[07-22-2015 11:04:07.124] Hit something! (x + xVel)
+[07-22-2015 11:04:07.125] Hit something! (x + xVel)
+[07-22-2015 11:04:07.126] Hit something! (x + xVel)
+[07-22-2015 11:04:07.127] Hit something! (x + xVel)
+[07-22-2015 11:04:07.128] Hit something! (x + xVel)
+[07-22-2015 11:04:07.129] Hit something! (x + xVel)
+[07-22-2015 11:04:07.130] Hit something! (x + xVel)
+[07-22-2015 11:04:07.131] Hit something! (x + xVel)
+[07-22-2015 11:04:07.132] Hit something! (x + xVel)
+[07-22-2015 11:04:07.143] Hit something! (x + xVel)
+[07-22-2015 11:04:07.144] Hit something! (x + xVel)
+[07-22-2015 11:04:07.145] Hit something! (x + xVel)
+[07-22-2015 11:04:07.146] Hit something! (x + xVel)
+[07-22-2015 11:04:07.147] Hit something! (x + xVel)
+[07-22-2015 11:04:07.148] Hit something! (x + xVel)
+[07-22-2015 11:04:07.149] Hit something! (x + xVel)
+[07-22-2015 11:04:07.150] Hit something! (x + xVel)
+[07-22-2015 11:04:07.152] Hit something! (x + xVel)
+[07-22-2015 11:04:07.174] Hit something! (x + xVel)
+[07-22-2015 11:04:07.176] Hit something! (x + xVel)
+[07-22-2015 11:04:07.178] Hit something! (x + xVel)
+[07-22-2015 11:04:07.179] Hit something! (x + xVel)
+[07-22-2015 11:04:07.180] Hit something! (x + xVel)
+[07-22-2015 11:04:07.181] Hit something! (x + xVel)
+[07-22-2015 11:04:07.182] Hit something! (x + xVel)
+[07-22-2015 11:04:07.183] Hit something! (x + xVel)
+[07-22-2015 11:04:07.184] Hit something! (x + xVel)
+[07-22-2015 11:04:07.185] Hit something! (x + xVel)
+[07-22-2015 11:04:07.186] Hit something! (x + xVel)
+[07-22-2015 11:04:07.187] Hit something! (x + xVel)
+[07-22-2015 11:04:07.188] Hit something! (x + xVel)
+[07-22-2015 11:04:07.189] Hit something! (x + xVel)
+[07-22-2015 11:04:07.190] Hit something! (x + xVel)
+[07-22-2015 11:04:07.191] Hit something! (x + xVel)
+[07-22-2015 11:04:07.192] Hit something! (x + xVel)
+[07-22-2015 11:04:07.193] Hit something! (x + xVel)
+[07-22-2015 11:04:07.194] Hit something! (x + xVel)
+[07-22-2015 11:04:07.195] Hit something! (x + xVel)
+[07-22-2015 11:04:07.196] Hit something! (x + xVel)
+[07-22-2015 11:04:07.197] Hit something! (x + xVel)
+[07-22-2015 11:04:07.198] Hit something! (x + xVel)
+[07-22-2015 11:04:07.199] Hit something! (x + xVel)
+[07-22-2015 11:04:07.200] Hit something! (x + xVel)
+[07-22-2015 11:04:07.201] Hit something! (x + xVel)
+[07-22-2015 11:04:07.202] Hit something! (x + xVel)
+[07-22-2015 11:04:07.203] Hit something! (x + xVel)
+[07-22-2015 11:04:07.216] Hit something! (x + xVel)
+[07-22-2015 11:04:07.217] Hit something! (x + xVel)
+[07-22-2015 11:04:07.219] Hit something! (x + xVel)
+[07-22-2015 11:04:07.220] Hit something! (x + xVel)
+[07-22-2015 11:04:07.221] Hit something! (x + xVel)
+[07-22-2015 11:04:07.222] Hit something! (x + xVel)
+[07-22-2015 11:04:07.223] Hit something! (x + xVel)
+[07-22-2015 11:04:07.224] Hit something! (x + xVel)
+[07-22-2015 11:04:07.225] Hit something! (x + xVel)
+[07-22-2015 11:04:07.256] Hit something! (x + xVel)
+[07-22-2015 11:04:07.257] Hit something! (x + xVel)
+[07-22-2015 11:04:07.258] Hit something! (x + xVel)
+[07-22-2015 11:04:07.259] Hit something! (x + xVel)
+[07-22-2015 11:04:07.260] Hit something! (x + xVel)
+[07-22-2015 11:04:07.261] Hit something! (x + xVel)
+[07-22-2015 11:04:07.262] Hit something! (x + xVel)
+[07-22-2015 11:04:07.263] Hit something! (x + xVel)
+[07-22-2015 11:04:07.264] Hit something! (x + xVel)
+[07-22-2015 11:04:07.265] Hit something! (x + xVel)
+[07-22-2015 11:04:07.266] Hit something! (x + xVel)
+[07-22-2015 11:04:07.267] Hit something! (x + xVel)
+[07-22-2015 11:04:07.268] Hit something! (x + xVel)
+[07-22-2015 11:04:07.269] Hit something! (x + xVel)
+[07-22-2015 11:04:07.270] Hit something! (x + xVel)
+[07-22-2015 11:04:07.271] Hit something! (x + xVel)
+[07-22-2015 11:04:07.272] Hit something! (x + xVel)
+[07-22-2015 11:04:07.274] Hit something! (x + xVel)
+[07-22-2015 11:04:07.275] Hit something! (x + xVel)
+[07-22-2015 11:04:07.276] Hit something! (x + xVel)
+[07-22-2015 11:04:07.277] Hit something! (x + xVel)
+[07-22-2015 11:04:07.278] Hit something! (x + xVel)
+[07-22-2015 11:04:07.279] Hit something! (x + xVel)
+[07-22-2015 11:04:07.280] Hit something! (x + xVel)
+[07-22-2015 11:04:07.281] Hit something! (x + xVel)
+[07-22-2015 11:04:07.282] Hit something! (x + xVel)
+[07-22-2015 11:04:07.283] Hit something! (x + xVel)
+[07-22-2015 11:04:07.284] Hit something! (x + xVel)
+[07-22-2015 11:04:07.285] Hit something! (x + xVel)
+[07-22-2015 11:04:07.286] Hit something! (x + xVel)
+[07-22-2015 11:04:07.287] Hit something! (x + xVel)
+[07-22-2015 11:04:07.288] Hit something! (x + xVel)
+[07-22-2015 11:04:07.289] Hit something! (x + xVel)
+[07-22-2015 11:04:07.290] Hit something! (x + xVel)
+[07-22-2015 11:04:07.291] Hit something! (x + xVel)
+[07-22-2015 11:04:07.292] Hit something! (x + xVel)
+[07-22-2015 11:04:07.293] Hit something! (x + xVel)
+[07-22-2015 11:04:07.294] Hit something! (x + xVel)
+[07-22-2015 11:04:07.295] Hit something! (x + xVel)
+[07-22-2015 11:04:07.308] Hit something! (x + xVel)
+[07-22-2015 11:04:07.309] Hit something! (x + xVel)
+[07-22-2015 11:04:07.310] Hit something! (x + xVel)
+[07-22-2015 11:04:07.311] Hit something! (x + xVel)
+[07-22-2015 11:04:07.312] Hit something! (x + xVel)
+[07-22-2015 11:04:07.313] Hit something! (x + xVel)
+[07-22-2015 11:04:07.314] Hit something! (x + xVel)
+[07-22-2015 11:04:07.315] Hit something! (x + xVel)
+[07-22-2015 11:04:07.316] Hit something! (x + xVel)
+[07-22-2015 11:04:07.317] Hit something! (x + xVel)
+[07-22-2015 11:04:07.318] Hit something! (x + xVel)
+[07-22-2015 11:04:07.320] Hit something! (x + xVel)
+[07-22-2015 11:04:07.322] Hit something! (x + xVel)
+[07-22-2015 11:04:07.324] Hit something! (x + xVel)
+[07-22-2015 11:04:07.325] Hit something! (x + xVel)
+[07-22-2015 11:04:07.326] Hit something! (x + xVel)
+[07-22-2015 11:04:07.327] Hit something! (x + xVel)
+[07-22-2015 11:04:07.328] Hit something! (x + xVel)
+[07-22-2015 11:04:07.329] Hit something! (x + xVel)
+[07-22-2015 11:04:07.330] Hit something! (x + xVel)
+[07-22-2015 11:04:07.331] Hit something! (x + xVel)
+[07-22-2015 11:04:07.332] Hit something! (x + xVel)
+[07-22-2015 11:04:07.333] Hit something! (x + xVel)
+[07-22-2015 11:04:07.334] Hit something! (x + xVel)
+[07-22-2015 11:04:07.335] Hit something! (x + xVel)
+[07-22-2015 11:04:07.336] Hit something! (x + xVel)
+[07-22-2015 11:04:07.374] Hit something! (x + xVel)
+[07-22-2015 11:04:07.376] Hit something! (x + xVel)
+[07-22-2015 11:04:07.377] Hit something! (x + xVel)
+[07-22-2015 11:04:07.379] Hit something! (x + xVel)
+[07-22-2015 11:04:07.380] Hit something! (x + xVel)
+[07-22-2015 11:04:07.381] Hit something! (x + xVel)
+[07-22-2015 11:04:07.382] Hit something! (x + xVel)
+[07-22-2015 11:04:07.383] Hit something! (x + xVel)
+[07-22-2015 11:04:07.384] Hit something! (x + xVel)
+[07-22-2015 11:04:07.385] Hit something! (x + xVel)
+[07-22-2015 11:04:07.386] Hit something! (x + xVel)
+[07-22-2015 11:04:07.387] Hit something! (x + xVel)
+[07-22-2015 11:04:07.388] Hit something! (x + xVel)
+[07-22-2015 11:04:07.389] Hit something! (x + xVel)
+[07-22-2015 11:04:07.390] Hit something! (x + xVel)
+[07-22-2015 11:04:07.391] Hit something! (x + xVel)
+[07-22-2015 11:04:07.392] Hit something! (x + xVel)
+[07-22-2015 11:04:07.393] Hit something! (x + xVel)
+[07-22-2015 11:04:07.394] Hit something! (x + xVel)
+[07-22-2015 11:04:07.395] Hit something! (x + xVel)
+[07-22-2015 11:04:07.396] Hit something! (x + xVel)
+[07-22-2015 11:04:07.397] Hit something! (x + xVel)
+[07-22-2015 11:04:07.398] Hit something! (x + xVel)
+[07-22-2015 11:04:07.399] Hit something! (x + xVel)
+[07-22-2015 11:04:07.400] Hit something! (x + xVel)
+[07-22-2015 11:04:07.401] Hit something! (x + xVel)
+[07-22-2015 11:04:07.402] Hit something! (x + xVel)
+[07-22-2015 11:04:07.403] Hit something! (x + xVel)
+[07-22-2015 11:04:07.404] Hit something! (x + xVel)
+[07-22-2015 11:04:07.405] Hit something! (x + xVel)
+[07-22-2015 11:04:07.406] Hit something! (x + xVel)
+[07-22-2015 11:04:07.407] Hit something! (x + xVel)
+[07-22-2015 11:04:07.408] Hit something! (x + xVel)
+[07-22-2015 11:04:07.409] Hit something! (x + xVel)
+[07-22-2015 11:04:07.410] Hit something! (x + xVel)
+[07-22-2015 11:04:07.412] Hit something! (x + xVel)
+[07-22-2015 11:04:07.414] Hit something! (x + xVel)
+[07-22-2015 11:04:09.76] Seems that the client is shutting down!

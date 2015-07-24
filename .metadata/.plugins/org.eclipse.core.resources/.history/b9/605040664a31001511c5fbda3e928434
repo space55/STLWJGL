@@ -1,0 +1,13 @@
+
+public class T
+{
+	public static float X(float x)
+	{
+		return x - 0.5f;
+	}
+	
+	public float Y(float y)
+	{
+		return y + 1f;
+	}
+}

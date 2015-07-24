@@ -1,0 +1,32 @@
+import org.lwjgl.opengl.GL11;
+
+public class Wall
+{
+	float x;
+	float y;
+	float endX;
+	float endY;
+	Colour color;
+	
+	public static wall[][];
+	
+	public Wall(float x, float y, float endX, float endY, Colour color)
+	{
+		this.x = x;
+		this.y = y;
+		this.endX = endX;
+		this.endY = endY;
+		this.color = color;
+	}
+	
+	public void draw()
+	{
+		color.setColor(color.get());
+		GL11.glBegin(GL11.GL_QUADS);
+		GL11.glVertex2f(x, y);
+		GL11.glVertex2f(x, endY);
+		GL11.glVertex2f(endX, endY);
+		GL11.glVertex2f(endX, y);
+		GL11.glEnd();
+	}
+}

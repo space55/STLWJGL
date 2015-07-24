@@ -1,0 +1,25 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class BuildWall
+{
+	public void build()
+	{
+		BufferedReader br;
+		try
+		{
+			br = new BufferedReader(new FileReader("board.bd"));
+		}
+		catch (FileNotFoundException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String input = br.readLine();
+		for (int counter = 0; input != null; counter++)
+		{
+			
+		}
+	}
+}

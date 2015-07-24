@@ -1,0 +1,13 @@
+
+public class Translate
+{
+	public float X(int x)
+	{
+		return x - 0.5f;
+	}
+	
+	public float Y(int y)
+	{
+		return y + 1f;
+	}
+}

@@ -1,0 +1,40 @@
+import org.lwjgl.opengl.GL11;
+
+import Logger.Logger;
+
+public class Floor
+{
+	float x;
+	float y;
+	float endX;
+	float endY;
+	Colour color;
+	
+	public static boolean floor[][] = new boolean[100][100];
+	
+	public Floor(float x, float y, float endX, float endY, Colour color)
+	{
+		Logger.println("Floor created");
+		this.x = x;
+		this.y = y;
+		this.endX = endX;
+		this.endY = endY;
+		this.color = color;
+	}
+	
+	public void draw()
+	{
+		color.setColor(color.get());
+		GL11.glBegin(GL11.GL_QUADS);
+		GL11.glVertex2f(x, y);
+		GL11.glVertex2f(x, endY);
+		GL11.glVertex2f(endX, endY);
+		GL11.glVertex2f(endX, y);
+		GL11.glEnd();
+	}
+	
+	public boolean isWall()
+	{
+		return false;
+	}
+}

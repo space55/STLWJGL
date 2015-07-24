@@ -1,0 +1,22 @@
+Starting logfile at 09:28:41.488[07-24-2015 09:28:41.494] Program running
+[07-24-2015 09:28:41.496] Window created
+[07-24-2015 09:28:42.24] Initializing
+[07-24-2015 09:28:42.30] KeyboardInput run called
+[07-24-2015 09:28:42.36] Building wall
+[07-24-2015 09:28:42.37] Creating board reader
+[07-24-2015 09:28:42.41] Reading board
+[07-24-2015 09:28:42.48] Lines: 23
+[07-24-2015 09:28:42.49] Width: 20
+[07-24-2015 09:28:42.50] Setting title
+[07-24-2015 09:28:42.53] Rect created
+[07-24-2015 09:28:42.54] Rect created
+[07-24-2015 09:28:42.55] Rect created
+[07-24-2015 09:28:42.56] Rect created
+[07-24-2015 09:28:42.57] Rect created
+[07-24-2015 09:28:42.58] Drawing for first time
+[07-24-2015 09:28:42.64] Translate X has been called
+[07-24-2015 09:28:42.65] Translate Y has been called
+[07-24-2015 09:28:42.66] Translate X has been called
+[07-24-2015 09:28:42.67] Translate Y has been called
+[07-24-2015 09:28:42.72] Creating a colour
+[07-24-2015 09:28:42.73] Wall created

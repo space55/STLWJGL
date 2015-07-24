@@ -1,0 +1,17 @@
+
+public class Colour
+{
+	int color[] = new int[3];
+	
+	public Colour(int r, int g, int b)
+	{
+		color[0] = r;
+		color[1] = g;
+		color[2] = b;
+	}
+	
+	public int[] get()
+	{
+		return color;
+	}
+}

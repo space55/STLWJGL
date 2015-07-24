@@ -7,7 +7,7 @@ public class Threads implements Runnable
 		{
 			Thread t = new Thread(this);
 			t.start();
-			t.run();
+			this.run();
 		}
 	}
 }
